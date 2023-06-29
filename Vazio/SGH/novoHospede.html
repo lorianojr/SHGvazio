@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt" dir="ltr">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>SGH | O seu hotel, com gestão sem igual.</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <!-- Boxicons CDN Link -->
+  <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+  <div class="sidebar">
+    <div class="logo-details">
+      <i class="icon" ><img src="assets/images/Logo.png" alt="Logo" style="width: 30px;"></i>
+      <div class="logo_name">SGH</div>
+      <i class="bx bx-menu" id="btn"></i>
+    </div>
+    <ul class="nav-list">
+      <li>
+        <i class="bx bx-search"></i>
+        <input type="text" placeholder="Pesquisar..." />
+        <span class="tooltip">Pesquisar</span>
+      </li>
+      <li>
+        <a href="index.html">
+          <i class="bx bx-grid-alt"></i>
+          <span class="links_name">Quartos</span>
+        </a>
+        <span class="tooltip">Quartos</span>
+      </li>
+      <li>
+        <a href="hospedes.html">
+          <i class="bx bx-user"></i>
+          <span class="links_name">Hóspedes</span>
+        </a>
+        <span class="tooltip">Hóspedes</span>
+      </li>
+      <li>
+        <a href="reservas.html">
+          <i class="bx bx-cart-alt"></i>
+          <span class="links_name">Reservas</span>
+        </a>
+        <span class="tooltip">Reservas</span>
+      </li>
+    </ul>
+  </div>
+
+  <section class="home-section">
+    <div class="text">Hóspedes</div>
+
+
+    <section class="containeres">
+      <header>Novo Hóspede</header>
+      <form action="#" class="form">
+        <div class="input-box">
+          <label>Nome Completo</label>
+          <input type="text" placeholder="Coloque seu nome completo" required />
+        </div>
+        <div class="input-box">
+          <label>Email</label>
+          <input type="text" placeholder="Coloque seu endereço de email" required />
+        </div>
+        <div class="column">
+          <div class="input-box">
+            <label>Número de Telefone</label>
+            <input type="number" placeholder="Coloque seu número de telefone" required />
+          </div>
+          <div class="input-box">
+            <label>Data de Nascimento</label>
+            <input type="date" placeholder="Coloque sua data de nascimento" required />
+          </div>
+        </div>
+        <div class="gender-box">
+          <h3>Gênero</h3>
+          <div class="gender-option">
+            <div class="gender">
+              <input type="radio" id="check-male" name="gender" checked />
+              <label for="check-male">Masculino</label>
+            </div>
+            <div class="gender">
+              <input type="radio" id="check-female" name="gender" />
+              <label for="check-female">Feminino</label>
+            </div>
+            <div class="gender">
+              <input type="radio" id="check-other" name="gender" />
+              <label for="check-other">Prefiro não responder</label>
+            </div>
+          </div>
+        </div>
+        <div class="input-box address">
+          <label>Endereço</label>
+          <input type="text" placeholder="Coloque seu endereço" required />
+          <input type="text" placeholder="Coloque seu endereço linha 2" required />
+          <div class="column">
+            <div class="select-box">
+              <select>
+                <option hidden>País</option>
+                <option>Argentina</option>
+                <option>Bolívia</option>
+                <option>Brasil</option>
+                <option>Chile</option>
+                <option>Colômbia</option>
+                <option>Equador</option>
+                <option>Guiana</option>
+                <option>Paraguai</option>
+                <option>Peru</option>
+                <option>Suriname</option>
+                <option>Uruguai</option>
+                <option>Venezuela</option>
+              </select>
+            </div>
+            <input type="text" placeholder="Coloque sua cidade" required />
+          </div>
+          <div class="column">
+            <input type="text" placeholder="Coloque seu estado" required />
+            <input type="number" placeholder="Coloque seu CEP" required />
+          </div>
+        </div>
+        <button>Enviar</button>
+      </form>
+    </section>
+    <div class="text"></div>
+  </section>
+
+
+
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>
