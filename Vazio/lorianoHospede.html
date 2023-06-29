@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt" dir="ltr">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>SGH | O seu hotel, com gestão sem igual.</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <!-- Boxicons CDN Link -->
+  <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+  <div class="sidebar">
+    <div class="logo-details">
+      <i class="icon" ><img src="assets/images/Logo.png" alt="Logo" style="width: 30px;"></i>
+      <div class="logo_name">SGH</div>
+      <i class="bx bx-menu" id="btn"></i>
+    </div>
+    <ul class="nav-list">
+      <li>
+        <i class="bx bx-search"></i>
+        <input type="text" placeholder="Pesquisar..." />
+        <span class="tooltip">Pesquisar</span>
+      </li>
+      <li>
+        <a href="index.html">
+          <i class="bx bx-grid-alt"></i>
+          <span class="links_name">Quartos</span>
+        </a>
+        <span class="tooltip">Quartos</span>
+      </li>
+      <li>
+        <a href="hospedes.html">
+          <i class="bx bx-user"></i>
+          <span class="links_name">Hóspedes</span>
+        </a>
+        <span class="tooltip">Hóspedes</span>
+      </li>
+      <li>
+        <a href="reservas.html">
+          <i class="bx bx-cart-alt"></i>
+          <span class="links_name">Reservas</span>
+        </a>
+        <span class="tooltip">Reservas</span>
+      </li>
+    </ul>
+  </div>
+
+  <section class="home-section">
+    <div class="text">Reservas</div>
+
+
+    <section class="containeres">
+      <header>Atualizar Reserva</header>
+      <form action="#" class="form">
+
+        <label>* Situação: <a class="botao">hospedado</a></label>
+
+        <div class="input-box">
+          <label>* Hóspede</label>
+            <div class="select-box">
+              <select>
+                <option hidden>Hóspede</option>
+                <option>Loriano Araujo Junior</option>
+                <option></option>
+                <option></option>
+              </select>
+            </div>
+        </div>
+        <div class="column">
+          <div class="input-box">
+            <label>* Data de Check-in</label>
+            <input type="date" required />
+          </div>
+          <div class="input-box">
+            <label>* Data de Check-out</label>
+            <input type="date" required />
+          </div>
+        </div>
+        <div class="input-box">
+          <label>* Quarto</label>
+            <div class="select-box">
+              <select>
+                <option hidden>Quarto</option>
+                <option>Quarto1</option>
+                <option>Quarto2</option>
+                <option>Quarto3</option>
+                <option>Quarto4</option>
+                <option>Quarto5</option>
+                <option>Quarto6</option>
+                <option>Quarto7</option>
+                <option>Quarto8</option>
+                <option>Quarto9</option>
+                <option>Quarto10</option>
+              </select>
+            </div>
+        </div>
+        <div class="input-box">
+          <label>* Valor da diária</label>
+          <input type="text"required placeholder="0,00"/>
+        </div>
+        <div class="column">
+          <div class="input-box">
+            <label>* Nº adultos<input type="number" min="0" name="age" /><label>
+          </div>
+          <div class="input-box">
+            <label>Nº crianças<input type="number" min="0" name="age" /><label>
+          </div>
+        </div>
+        <div class="input-box">
+          <label>Observação</label>
+          <input type="text"required />
+        </div>
+        </div>
+        <button>Atualizar</button>
+      </form>
+    </section>
+    <div class="text"></div>
+  </section>
+
+
+
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>
